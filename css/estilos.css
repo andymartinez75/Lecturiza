@@ -216,5 +216,11 @@ body {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.swal-popup {
+  z-index: 9999 !important; /* Asegura que el modal esté encima */
+  background-color: white !important; /* Fondo del modal */
+  border: 2px solid #4e6baa; /* Bordes consistentes */
+}
+
 
   

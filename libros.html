@@ -20,7 +20,7 @@
     <a href="./index.html">
   <img src="./img/logo lecturiza1.png" width="100" alt="logo de la pagina">
 </a>
-  <h2>Mi biblioteca (En construccion contenido estatico)</h2>
+  <h2>Mi biblioteca </h2>
   
   <!-- Navegación -->
   <nav class="navbar navbar-expand-lg fondo-oscuro w-100">
@@ -44,33 +44,18 @@
 </header>
 
 <main>
-    <!-- Sección de Libros de mi biblioteca estatico -->
-    <section id="mi-biblioteca" class="container my-5">
-        <h2 class="texto-centrado texto-blanco mb-4">Libros Seleccionados</h2>
-        <div class="contenedor-cards">
-          <div class="tarjeta">
-            <img src="./img/libro3.jpg" alt="Libro 3" class="imagen-tarjeta">
-            <div class="cuerpo-tarjeta">
-              <h5>Libro 3</h5>
-              <button class="btn btn-info">Leer</button>
-            </div>
-          </div>
-          <div class="tarjeta">
-            <img src="./img/libro5.jpg" alt="Libro 5" class="imagen-tarjeta">
-            <div class="cuerpo-tarjeta">
-              <h5>Libro 5</h5>
-              <button class="btn btn-warning">Leido</button>
-            </div>
-          </div>
-          
-        </div>
-      </section>
+    <!-- Sección de Libros seleccionados en index  -->
+    <div id="biblioteca" class="container my-5">
+      <h3 class="texto-blanco texto-centrado">Tus libros</h3>
+      <div id="biblioteca-container" class="row mt-4"></div>
+    </div>
+
 
     </main>
 
 
     <!-- Pie de Página -->
-    <footer class="pie-pagina fondo-oscuro p-3 texto-blanco texto-centrado">
+    <footer class="pie-pagina fondo-oscuro texto-blanco texto-centrado">
         <p>&copy; 2024 Lecturiza. Todos los derechos reservados.</p>
         <div class="social-icons">
           <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -82,5 +67,6 @@
     
       <!-- Scripts de Bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="./js/libros.js"></script>
     </body>
     </html>

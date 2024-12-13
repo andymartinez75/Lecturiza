@@ -11,6 +11,7 @@ El navbar estaba en el main para la pre entrega se coloco en header para poder m
 Se agrego un indicador de carga por que en pantalla tardaba en cargar los libros, si bien se coloco limite de carga 9 libros esta API no lo toma
 Se utilizo la libreria Sweetalert de JS en el carrito para mostrar los mensajes de compra de suscripcion.
 Cuando se finaliza la compra va a la biblioteca directamente donde muestra el libro que se habia seleccionado desde el home. 
+Procedimiento: en el index agrego libro al carrito,debo ir al carrito y seleccionar suscripcion y luego finalizar la compra para que me derive a mi biblioteca.
 
 
 

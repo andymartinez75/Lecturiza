@@ -222,5 +222,17 @@ body {
   border: 2px solid #4e6baa; /* Bordes consistentes */
 }
 
+#biblioteca-container .card img {
+  object-fit: cover; /* Ajusta la imagen sin distorsión */
+  height: 200px; /* Altura fija para las imágenes */
+}
+
+#biblioteca-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Asegura que las tarjetas ocupen toda la altura disponible */
+}
+
 
   

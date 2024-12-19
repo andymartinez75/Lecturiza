@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.addEventListener("click", (e) => {
         const tipo = e.target.dataset.tipo;
         const precio = parseFloat(e.target.dataset.precio);
-  
+
         // Agregar suscripción seleccionada al carrito
         carritoItemsStorage.push({ title: tipo, price: precio });
         localStorage.setItem("cart", JSON.stringify(carritoItemsStorage));
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         Swal.fire({
           title: "Resumen de Compra",
           html: `
-            <p>Has seleccionado los siguientes planes:</p>
+            <p>Has seleccionado el siguiente plan:</p>
             <ul>
               ${carritoItemsStorage
                 .map(
